@@ -11,7 +11,7 @@ import purpleHeartIcon from '../../assets/images/icons/purple-heart.svg'
 
 import './styles.css'
 
-const Landing: React.FC = () => {
+function Landing() {
   return (
     <div id="page-landing">
       <div id="page-landing-content" className="container">
@@ -32,7 +32,7 @@ const Landing: React.FC = () => {
             Estudar
           </Link>
 
-          <Link to="/give-classses" className="give-classes">
+          <Link to="/give-classes" className="give-classes">
             <img src={giveClassesIcon} alt="Estudar"/>
             Dar aulas
           </Link>
